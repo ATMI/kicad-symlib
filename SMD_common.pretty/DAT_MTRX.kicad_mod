@@ -1,0 +1,99 @@
+(footprint "DAT_MTRX"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.95 0)
+		(layer "F.SilkS")
+		(uuid "94d61e82-33d7-46b7-84ac-6878c5075ac7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DAT_MTRX"
+		(at 0 4.95 0)
+		(layer "F.Fab")
+		(uuid "f4eb6e0f-38ba-487a-a718-54a0f6241051")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc487d67-320c-4323-b894-e5a0a2f058a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ec1e3fc-968d-4abc-b052-1b93147862ef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -4 4)
+		(end -4 2)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad72ba9d-06c2-4419-a17a-c2bdce4e6984")
+	)
+	(fp_line
+		(start -4 4)
+		(end -2 4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94b53355-dd12-4497-9683-71a25bbceb34")
+	)
+	(fp_line
+		(start 2 -4)
+		(end 4 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7df44194-f929-4020-abd7-7b9d2cd4c294")
+	)
+	(fp_line
+		(start 4 -2)
+		(end 4 -4)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "635c9788-5b80-4e24-bc6b-631e065c857a")
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 8.5 8.5)
+		(layers "F.Cu")
+		(uuid "034c72f2-bf63-4b64-9466-e3da875c9ef4")
+	)
+	(embedded_fonts no)
+)

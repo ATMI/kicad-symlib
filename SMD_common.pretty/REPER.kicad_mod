@@ -1,0 +1,100 @@
+(footprint "REPER"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.35076 0)
+		(layer "F.SilkS")
+		(uuid "a7930341-95dd-46a4-9c81-8e8becb04337")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "REPER"
+		(at 0 2.35076 0)
+		(layer "F.Fab")
+		(uuid "787518bd-e35b-4ce1-9d41-9e93dc0122fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3438a9e-d05a-4a63-b055-8bf4bf3a3f63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "def7f14c-c0f0-4355-99f7-9ecdd661a8f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.75)
+		(thermal_bridge_angle 90)
+		(uuid "3ea2fa17-7807-41cd-9941-4bbcbc667244")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "ec6487d3-3d3f-467c-9b57-e7d2fb5edab9")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy -1.65076 0) (xy -1.65076 0.16258) (xy -1.58732 0.48151) (xy -1.46288 0.78192) (xy -1.28223 1.05229)
+				(xy -1.05229 1.28223) (xy -0.78192 1.46288) (xy -0.48151 1.58732) (xy -0.16258 1.65076) (xy 0 1.65076)
+				(xy 0.16258 1.65076) (xy 0.48151 1.58732) (xy 0.78192 1.46288) (xy 1.05229 1.28223) (xy 1.28223 1.05229)
+				(xy 1.46288 0.78192) (xy 1.58732 0.48151) (xy 1.65076 0.16258) (xy 1.65076 0) (xy 1.65076 -0.16258)
+				(xy 1.58732 -0.48151) (xy 1.46288 -0.78192) (xy 1.28223 -1.05229) (xy 1.05229 -1.28223) (xy 0.78192 -1.46288)
+				(xy 0.48151 -1.58732) (xy 0.16258 -1.65076) (xy 0 -1.65076) (xy -0.16258 -1.65076) (xy -0.48151 -1.58732)
+				(xy -0.78192 -1.46288) (xy -1.05229 -1.28223) (xy -1.28223 -1.05229) (xy -1.46288 -0.78192) (xy -1.58732 -0.48151)
+				(xy -1.65076 -0.16258)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
