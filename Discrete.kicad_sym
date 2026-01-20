@@ -2685,26 +2685,8 @@
 					)
 				)
 			)
-			(pin input line
-				(at 24 6 180)
-				(length 6)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_out line
-				(at 24 -6 180)
+				(at 24 6 180)
 				(length 6)
 				(name "SW"
 					(effects
@@ -2714,6 +2696,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 24 -6 180)
+				(length 6)
+				(name "BOOT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
