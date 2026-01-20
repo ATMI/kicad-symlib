@@ -1090,6 +1090,140 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Diode Schottky"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "VD"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Value" "*Value*"
+			(at 0 -5 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Footprint" "*Footprint*"
+			(at 0 -8 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "*Datasheet*"
+			(at 0 11 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
+			(at 0 8 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Diode Schottky_1_0"
+			(polyline
+				(pts
+					(xy -2 2) (xy 2 0) (xy -2 -2) (xy -2 2)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2 0) (xy 2 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1 -2) (xy 2 -2) (xy 2 2) (xy 3 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Diode Schottky_1_1"
+			(pin passive line
+				(at -6 0 0)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 4)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Diode TVS"
 		(pin_numbers
 			(hide yes)
