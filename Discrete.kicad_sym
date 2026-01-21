@@ -314,7 +314,7 @@
 			(pin input line
 				(at 24 6 180)
 				(length 6)
-				(name "BOOT"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -350,7 +350,7 @@
 			(pin input line
 				(at 24 -18 180)
 				(length 6)
-				(name "FB"
+				(name "BOOT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -545,7 +545,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 0 0)
+			(at 0 3 0)
 			(effects
 				(font
 					(size 2 2)
@@ -553,7 +553,7 @@
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -6 0)
+			(at 0 -3 0)
 			(effects
 				(font
 					(size 2 2)
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Footprint" "*Footprint*"
-			(at 0 -42 0)
+			(at 0 -24 0)
 			(effects
 				(font
 					(size 2 2)
@@ -589,8 +589,8 @@
 		)
 		(symbol "*Bust_1_0"
 			(rectangle
-				(start -18 12)
-				(end 18 -24)
+				(start -12 12)
+				(end 12 -12)
 				(stroke
 					(width 0.25)
 					(type solid)
@@ -602,7 +602,7 @@
 				)
 			)
 			(pin power_in line
-				(at -24 6 0)
+				(at -18 6 0)
 				(length 6)
 				(name "Vin"
 					(effects
@@ -611,7 +611,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -620,7 +620,7 @@
 				)
 			)
 			(pin input line
-				(at -24 -6 0)
+				(at -18 -6 0)
 				(length 6)
 				(name "EN"
 					(effects
@@ -629,43 +629,7 @@
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -24 -12 0)
-				(length 6)
-				(name "COMP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -24 -18 0)
-				(length 6)
-				(name "RT/SYNC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -674,25 +638,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -30 90)
-				(length 6)
-				(name "PAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -30 90)
+				(at 0 -18 90)
 				(length 6)
 				(name "GND"
 					(effects
@@ -701,25 +647,7 @@
 						)
 					)
 				)
-				(number ""
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 24 6 180)
-				(length 6)
-				(name "BOOT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number ""
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -728,7 +656,7 @@
 				)
 			)
 			(pin power_out line
-				(at 24 -6 180)
+				(at 18 6 180)
 				(length 6)
 				(name "SW"
 					(effects
@@ -737,7 +665,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -746,7 +674,7 @@
 				)
 			)
 			(pin input line
-				(at 24 -18 180)
+				(at 18 -6 180)
 				(length 6)
 				(name "FB"
 					(effects
@@ -755,7 +683,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
