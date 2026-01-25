@@ -1,4 +1,4 @@
-(footprint "NX2016SA"
+(footprint "2016-4P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "NX2016SA"
+	(property "Value" "2016-4P"
 		(at 0 3 0)
 		(layer "F.Fab")
 		(uuid "d9b9f7a0-dd5c-454e-94cc-b12333b0cbee")
@@ -141,34 +141,38 @@
 		(layer "F.CrtYd")
 		(uuid "fab61a5f-8b46-4987-8a8d-602d51716115")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -0.675 0.525)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.075)
 		(solder_paste_margin 0)
 		(uuid "0dd9005c-3cec-4deb-ad14-d196745550cf")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 0.675 -0.525)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.075)
 		(solder_paste_margin 0)
 		(uuid "3076b480-2f5b-4774-a0ee-ea1428d0a988")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -0.675 -0.525)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.075)
 		(solder_paste_margin 0)
 		(uuid "e181a978-277e-462e-ab25-8386134f3dc3")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 0.675 0.525)
 		(size 0.8 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(solder_mask_margin 0.075)
 		(solder_paste_margin 0)
 		(uuid "f241d552-09d7-4ed0-a77a-3573c09ae6bc")

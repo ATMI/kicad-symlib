@@ -1,4 +1,4 @@
-(footprint "SMD3225"
+(footprint "3225-4P"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "SMD3225"
+	(property "Value" "3225-4P"
 		(at 0 3 0)
 		(layer "F.Fab")
 		(uuid "21ac3c33-25ad-47ea-93ad-213307f6eb1e")
@@ -141,28 +141,32 @@
 		(layer "F.CrtYd")
 		(uuid "bcfe99bc-3c4a-4212-9873-331d903f23c7")
 	)
-	(pad "1" smd rect
+	(pad "1" smd roundrect
 		(at -1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(uuid "18c05707-1329-46ec-b9b5-04b126695747")
 	)
-	(pad "2" smd rect
+	(pad "2" smd roundrect
 		(at 1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(uuid "d111421a-3c56-4446-a652-6bcdb1016b8b")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at -1.1 -0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(uuid "fef265b8-7c0f-477f-8b8f-651c7af50bd5")
 	)
-	(pad "3" smd rect
+	(pad "3" smd roundrect
 		(at 1.1 0.85)
 		(size 1.4 1.2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
 		(uuid "e75c7f14-9ced-4807-9f9b-b501297081d2")
 	)
 	(embedded_fonts no)
