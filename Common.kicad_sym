@@ -86,10 +86,9 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 0 -6) (xy 0 -9)
-				)
+			(circle
+				(center 0 -6)
+				(radius 4.1231)
 				(stroke
 					(width 0)
 					(type default)
@@ -120,7 +119,7 @@
 			)
 			(pin passive line
 				(at -6 -6 0)
-				(length 6)
+				(length 2)
 				(name "SHIELD"
 					(effects
 						(font
@@ -134,21 +133,6 @@
 							(size 0 0)
 						)
 					)
-				)
-			)
-		)
-		(symbol "Antenna_1_1"
-			(polyline
-				(pts
-					(xy -2 -9) (xy 2 -9)
-				)
-				(stroke
-					(width 0.5)
-					(type solid)
-					(color 0 0 0 1)
-				)
-				(fill
-					(type none)
 				)
 			)
 		)

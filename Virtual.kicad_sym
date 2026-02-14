@@ -81,7 +81,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 90)
 				(length 3)
 				(name "~"
@@ -181,7 +181,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 90)
 				(length 3)
 				(name "~"
@@ -281,7 +281,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 90)
 				(length 3)
 				(name "~"
@@ -481,7 +481,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 90)
 				(length 3)
 				(name ""
@@ -581,7 +581,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 90)
 				(length 3)
 				(name "~"
@@ -1075,7 +1075,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 270)
 				(length 3)
 				(name ""
@@ -1175,7 +1175,7 @@
 					(type none)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 0 0 90)
 				(length 3)
 				(name ""
