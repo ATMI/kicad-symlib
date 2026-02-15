@@ -112,10 +112,11 @@
 		(layer "F.CrtYd")
 		(uuid "c055c870-d3ef-4720-b749-2699731de036")
 	)
-	(pad "1" smd oval
+	(pad "1" smd roundrect
 		(at -4.445 4.2)
 		(size 0.75 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.1)
 		(solder_paste_margin 0)
 		(uuid "0c1b86ce-dc05-4e0f-9ecc-5900cc711328")
