@@ -877,12 +877,13 @@
 			)
 		)
 		(property "Value" "EARTH"
-			(at 0 -7 0)
+			(at 0 -6 0)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" ""
@@ -1017,12 +1018,13 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 0 -5 0)
+			(at 0 -4 0)
 			(do_not_autoplace)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" ""

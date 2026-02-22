@@ -276,19 +276,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 6 0)
+			(at -2 1 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify right bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -6 0)
+			(at 2 -1 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify left top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -4159,19 +4161,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "ZQ"
-			(at 0 7 0)
+			(at 0 5 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -9 0)
+			(at 0 -7 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -5092,18 +5096,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "R"
-			(at 0 4 0)
+			(at 0 2 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -4 0)
+			(at 0 0 0)
+			(do_not_autoplace)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
 			)
 		)
