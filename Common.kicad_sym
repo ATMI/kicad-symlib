@@ -7,19 +7,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "XS"
-			(at 0 16 0)
+			(at 0 14 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -13 0)
+			(at 0 -12 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -398,19 +400,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "C"
-			(at 0 6 0)
+			(at 0 5 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -6 0)
+			(at 0 -5 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -842,19 +846,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 0 21 0)
+			(at 0 19 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -21 0)
+			(at 0 -19 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -1020,19 +1026,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 0 5 0)
+			(at 0 3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -1636,19 +1644,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 0 5 0)
+			(at 0 3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -1770,19 +1780,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 0 5 0)
+			(at 0 3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -1898,19 +1910,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "F"
-			(at 0 4 0)
+			(at 0 2 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -4 0)
+			(at 0 -2 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -2019,19 +2033,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "L"
-			(at 0 4 0)
+			(at 0 2 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -3 0)
+			(at 0 -1 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -2336,19 +2352,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 8 0)
+			(at 0 6 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -2512,19 +2530,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 8 0)
+			(at 0 6 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -2688,19 +2708,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "D"
-			(at 0 8 0)
+			(at 0 6 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -2858,19 +2880,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VT"
-			(at 3 9 0)
+			(at 3 6 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 3 -9 0)
+			(at 3 -6 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -3435,19 +3459,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VT"
-			(at 3 9 0)
+			(at 3 7 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 3 -9 0)
+			(at 3 -7 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
