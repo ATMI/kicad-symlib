@@ -14041,7 +14041,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 3 0)
+			(at 0 2 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -14050,7 +14050,7 @@
 			)
 		)
 		(property "Value" "USB2"
-			(at 0 -3 0)
+			(at 0 -2 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -14250,7 +14250,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "J"
-			(at 0 3 0)
+			(at 0 2 0)
 			(do_not_autoplace)
 			(effects
 				(font
@@ -14259,7 +14259,7 @@
 			)
 		)
 		(property "Value" "USB3"
-			(at 0 -3 0)
+			(at 0 -2 0)
 			(do_not_autoplace)
 			(effects
 				(font
