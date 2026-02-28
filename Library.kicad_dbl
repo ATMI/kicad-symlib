@@ -48,6 +48,18 @@
                     "inherit_properties": true
                 },
                 {
+                    "column": "lcsc_num",
+                    "name": "LCSC #",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "chipdip_num",
+                    "name": "ChipDip #",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
                     "column": "exclude_bom",
                     "name": "Exclude from BOM",
                     "visible_in_chooser": true,
@@ -76,6 +88,8 @@
                 "description": "description",
                 "footprint_filters": "package",
                 "keywords": "alts",
+                "lcsc_num": "lcsc_num",
+                "chipdip_num": "chipdip_num",
                 "exclude_from_bom": "exclude_bom",
                 "exclude_from_board": "exclude_pcb"
             }
