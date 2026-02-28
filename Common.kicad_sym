@@ -977,6 +977,24 @@
 				)
 			)
 			(pin passive line
+				(at 0 0 180)
+				(length 0)
+				(name "KA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 -12 90)
 				(length 4)
 				(name "A"
@@ -987,24 +1005,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6 0 180)
-				(length 6)
-				(name "KA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
