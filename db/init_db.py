@@ -40,7 +40,7 @@ def import_footprints(cursor, path: str, lib_id: int) -> None:
 def import_symbols(cursor, path: str, lib_id: int) -> None:
 	lib = KiCadSymLibraryParser(path)
 	for symbol in lib.tree.select_children('symbol'):
-		name = symbol.get_attributes()[0]
+		name = symbol.get_attributes()[0].strip('" \t')
 		if not name.startswith('*'):
 			cursor.execute("INSERT INTO symbol (name, library_id) VALUES (%s, %s)", (name, lib_id))
 
