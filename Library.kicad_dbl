@@ -1,0 +1,84 @@
+{
+    "meta": {
+        "version": 1.0
+    },
+    "name": "Kicad Library",
+    "description": "KiCad library database",
+    "source": {
+	"type": "odbc",
+        "timeout_seconds": 10,
+        "connection_string": "DSN=Kicad;"
+    },
+    "libraries": [
+        {
+            "name": "Kicad Library",
+            "table": "kicad",
+            "key": "partnumber",
+            "symbols": "symbol",
+            "footprints": "footprint",
+            "fields": [
+                {
+                    "column": "partnumber",
+                    "name": "Partnumber",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "value",
+                    "name": "Value",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "package",
+                    "name": "Package",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "symbol",
+                    "name": "Symbol",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "footprint",
+                    "name": "Footprint",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "exclude_bom",
+                    "name": "Exclude from BOM",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "exclude_pcb",
+                    "name": "Exclude from PCB",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "description",
+                    "name": "Description",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
+                    "column": "datasheet",
+                    "name": "Datasheet",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                }
+            ],
+            "properties": {
+                "description": "description",
+                "footprint_filters": "package",
+                "keywords": "alts",
+                "exclude_from_bom": "exclude_bom",
+                "exclude_from_board": "exclude_pcb"
+            }
+        }
+    ]
+}
