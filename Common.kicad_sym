@@ -2021,6 +2021,122 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Fuse Holder"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "*Value*"
+			(at 0 -2 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "*Footprint*"
+			(at 0 -7 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "*Datasheet*"
+			(at 0 10 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
+			(at 0 7 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "Fuse Holder_1_0"
+			(rectangle
+				(start -3 1)
+				(end 3 -1)
+				(stroke
+					(width 0.1)
+					(type dash)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -6 0 0)
+				(length 3)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 0 180)
+				(length 3)
+				(name "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Fuse Holder_1_1"
+			(polyline
+				(pts
+					(xy -3 0) (xy 3 0)
+				)
+				(stroke
+					(width 0.1)
+					(type dash)
+					(color 132 132 132 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Inductor"
 		(pin_numbers
 			(hide yes)
