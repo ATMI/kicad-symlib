@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>KiCad Parts Manager</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 10px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+        }
+
+        .tab {
+            padding: 10px;
+            background: lightgray;
+            cursor: pointer;
+        }
+
+        .tab.active {
+            background: dodgerblue;
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+            border: 1px solid gray;
+            padding: 10px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid lightgray;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background: #f4f4f4;
+        }
+
+        .form-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .form-grid label {
+            display: block;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 8px 16px;
+        }
+
+        .response {
+            margin-top: 16px;
+            padding: 12px;
+            background: #f8f9fa;
+            white-space: pre-wrap;
+        }
+
+        .error {
+            background: #ffebee;
+            color: #c62828;
+        }
+    </style>
+</head>
+<body>
+
+<h1>KiCad Library Manager</h1>
+
+<div class="tabs">
+    <div class="tab active" data-tab="health">Health</div>
+    <div class="tab" data-tab="libraries">Libraries</div>
+    <div class="tab" data-tab="packages">Packages</div>
+    <div class="tab" data-tab="footprints">Footprints</div>
+    <div class="tab" data-tab="symbols">Symbols</div>
+    <div class="tab" data-tab="parts">Parts</div>
+</div>
+
+<!-- Health Tab -->
+<div id="health" class="tab-content active">
+    <button onclick="checkHealth()">Check Server Health</button>
+    <div id="health-response" class="response"></div>
+</div>
+
+<!-- Libraries Tab -->
+<div id="libraries" class="tab-content">
+    <h2>Libraries</h2>
+    <button onclick="loadLibraries()">Refresh List</button>
+    <table id="libraries-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Type</th>
+            <th>Alias</th>
+            <th>Path</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3>Create / Edit Library</h3>
+    <div class="form-grid">
+        <div><label>ID (for edit)</label><input id="lib-id" type="number"/></div>
+        <div><label>Type</label><input id="lib-type" required/></div>
+        <div><label>Alias</label><input id="lib-alias" required/></div>
+        <div><label>Path</label><input id="lib-path" required/></div>
+    </div>
+    <button onclick="saveLibrary()">Save Library</button>
+    <button onclick="clearLibForm()">Clear Form</button>
+    <div id="lib-response" class="response"></div>
+</div>
+
+<!-- Packages Tab -->
+<div id="packages" class="tab-content">
+    <h2>Packages</h2>
+    <button onclick="loadPackages()">Refresh List</button>
+    <table id="packages-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3>Create / Edit Package</h3>
+    <div class="form-grid">
+        <div><label>ID (for edit)</label><input id="pkg-id" type="number"/></div>
+        <div><label>Name</label><input id="pkg-name" required/></div>
+    </div>
+    <button onclick="savePackage()">Save Package</button>
+    <button onclick="clearPkgForm()">Clear Form</button>
+    <div id="pkg-response" class="response"></div>
+</div>
+
+<!-- Footprints Tab -->
+<div id="footprints" class="tab-content">
+    <h2>Footprints</h2>
+    <button onclick="loadFootprints()">Refresh List</button>
+    <table id="footprints-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Library ID</th>
+            <th>Package ID</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3>Create / Edit Footprint</h3>
+    <div class="form-grid">
+        <div><label>ID (for edit)</label><input id="fp-id" type="number"/></div>
+        <div><label>Name</label><input id="fp-name" required/></div>
+        <div><label>Library ID</label><input id="fp-lib-id" type="number" required/></div>
+        <div><label>Package</label>
+            <select id="fp-pkg-select" required></select>
+        </div>
+    </div>
+    <button onclick="saveFootprint()">Save Footprint</button>
+    <button onclick="clearFpForm()">Clear Form</button>
+    <div id="fp-response" class="response"></div>
+</div>
+
+<!-- Symbols Tab -->
+<div id="symbols" class="tab-content">
+    <h2>Symbols</h2>
+    <button onclick="loadSymbols()">Refresh List</button>
+    <table id="symbols-table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Library ID</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3>Create / Edit Symbol</h3>
+    <div class="form-grid">
+        <div><label>ID (for edit)</label><input id="sym-id" type="number"/></div>
+        <div><label>Name</label><input id="sym-name" required/></div>
+        <div><label>Library ID</label><input id="sym-lib-id" type="number" required/></div>
+    </div>
+    <button onclick="saveSymbol()">Save Symbol</button>
+    <button onclick="clearSymForm()">Clear Form</button>
+    <div id="sym-response" class="response"></div>
+</div>
+
+<!-- Parts Tab -->
+<div id="parts" class="tab-content">
+    <h2>Parts</h2>
+    <button onclick="loadParts()">Refresh List</button>
+    <table id="parts-table">
+        <thead>
+        <tr>
+            <th>Partnumber</th>
+            <th>Value</th>
+            <th>Symbol ID</th>
+            <th>Footprint ID</th>
+            <th>LCSC</th>
+            <th>Actions</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h3>Create / Edit Part</h3>
+    <div class="form-grid" style="grid-template-columns: 1fr 1fr 1fr;">
+        <div><label>Partnumber</label><input id="part-pn" required/></div>
+        <div><label>Value</label><input id="part-value"/></div>
+        <div><label>Symbol</label><select id="part-sym-select" required></select></div>
+        <div><label>Footprint</label><select id="part-fp-select" required></select></div>
+        <div><label>Description</label><input id="part-desc"/></div>
+        <div><label>Datasheet</label><input id="part-datasheet"/></div>
+        <div><label>LCSC #</label><input id="part-lcsc"/></div>
+        <div><label>Chipdip #</label><input id="part-chipdip" type="number"/></div>
+        <div><label>Exclude BOM</label><input id="part-ex-bom" type="checkbox"/></div>
+        <div><label>Exclude PCB</label><input id="part-ex-pcb" type="checkbox"/></div>
+    </div>
+    <button onclick="savePart()">Save Part</button>
+    <button onclick="clearPartForm()">Clear Form</button>
+    <div id="part-response" class="response"></div>
+</div>
+
+<script>
+    // ──────────────────────────────────────────────────────────────
+    //  Configuration
+    // ──────────────────────────────────────────────────────────────
+    const API_BASE = 'http://localhost:8888';
+    const API_KEY = 'dev-secret-key-123456';
+
+    // Global lookups — populated when loading related data
+    let symbolMap = {};     // id → name
+    let footprintMap = {};  // id → name
+
+    // ──────────────────────────────────────────────────────────────
+    //  Tab switching
+    // ──────────────────────────────────────────────────────────────
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.addEventListener('click', () => {
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            tab.classList.add('active');
+            document.getElementById(tab.dataset.tab).classList.add('active');
+
+            // Auto-load lists when tab is activated
+            if (tab.dataset.tab === 'libraries') loadLibraries();
+            if (tab.dataset.tab === 'packages') loadPackages();
+            if (tab.dataset.tab === 'footprints') {
+                loadFootprints();
+                loadPackagesForDropdown();
+            }
+            if (tab.dataset.tab === 'symbols') loadSymbols();
+            if (tab.dataset.tab === 'parts') {
+                loadParts();
+                loadSymbolsForDropdown();
+                loadFootprintsForDropdown();
+            }
+        });
+    });
+
+    // ──────────────────────────────────────────────────────────────
+    //  API Helper
+    // ──────────────────────────────────────────────────────────────
+    async function apiRequest(method, endpoint, body = null) {
+        const opts = {
+            method,
+            headers: {
+                'Content-Type': 'application/json',
+                'X-API-Key': API_KEY
+            },
+            mode: 'cors'
+        };
+        if (body !== null) opts.body = JSON.stringify(body);
+
+        try {
+            const res = await fetch(API_BASE + endpoint, opts);
+            let data;
+            try {
+                data = await res.json();
+            } catch {
+                data = await res.text();
+            }
+            return {ok: res.ok, status: res.status, data};
+        } catch (err) {
+            return {ok: false, status: 0, data: {error: err.message}};
+        }
+    }
+
+    function showResponse(elementId, result) {
+        const el = document.getElementById(elementId);
+        if (!result.ok) {
+            el.className = 'response error';
+            el.textContent = `Error ${result.status}: ${JSON.stringify(result.data, null, 2)}`;
+        } else {
+            el.className = 'response';
+            el.textContent = JSON.stringify(result.data, null, 2);
+        }
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Generic list renderer
+    // ──────────────────────────────────────────────────────────────
+    function renderTable(tableId, items, columns, actionsFn, cellRenderer = (item, col) => item[col] ?? '') {
+        const tbody = document.querySelector(`#${tableId} tbody`);
+        tbody.innerHTML = '';
+        items.forEach(item => {
+            const tr = document.createElement('tr');
+            columns.forEach(col => {
+                const td = document.createElement('td');
+                td.textContent = cellRenderer(item, col);
+                tr.appendChild(td);
+            });
+            const actionTd = document.createElement('td');
+            actionTd.appendChild(actionsFn(item));
+            tr.appendChild(actionTd);
+            tbody.appendChild(tr);
+        });
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Libraries
+    // ──────────────────────────────────────────────────────────────
+    async function loadLibraries() {
+        const r = await apiRequest('GET', '/library');
+        if (r.ok && Array.isArray(r.data)) {
+            renderTable('libraries-table', r.data, ['id', 'type', 'alias', 'path'], item => {
+                const btn = document.createElement('button');
+                btn.textContent = 'Edit';
+                btn.onclick = () => editLibrary(item);
+                return btn;
+            });
+        }
+    }
+
+    function editLibrary(item) {
+        document.getElementById('lib-id').value = item.id;
+        document.getElementById('lib-type').value = item.type;
+        document.getElementById('lib-alias').value = item.alias;
+        document.getElementById('lib-path').value = item.path;
+    }
+
+    async function saveLibrary() {
+        const id = document.getElementById('lib-id').value.trim();
+        const type = document.getElementById('lib-type').value.trim();
+        const alias = document.getElementById('lib-alias').value.trim();
+        const path = document.getElementById('lib-path').value.trim();
+
+        if (!type || !alias || !path) return alert('Type, alias and path are required');
+
+        const data = {type, alias, path};
+        const method = id ? 'POST' : 'POST'; // backend uses POST for both create & update
+        const endpoint = '/library';
+
+        const res = await apiRequest(method, endpoint, data);
+        showResponse('lib-response', res);
+        if (res.ok) {
+            loadLibraries();
+            clearLibForm();
+        }
+    }
+
+    function clearLibForm() {
+        ['lib-id', 'lib-type', 'lib-alias', 'lib-path'].forEach(id => document.getElementById(id).value = '');
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Packages
+    // ──────────────────────────────────────────────────────────────
+    async function loadPackages() {
+        const r = await apiRequest('GET', '/package');
+        if (r.ok && Array.isArray(r.data)) {
+            renderTable('packages-table', r.data, ['id', 'name'], item => {
+                const btn = document.createElement('button');
+                btn.textContent = 'Edit';
+                btn.onclick = () => editPackage(item);
+                return btn;
+            });
+            // Also fill dropdowns where needed
+            updatePackageDropdowns(r.data);
+        }
+    }
+
+    function editPackage(item) {
+        document.getElementById('pkg-id').value = item.id;
+        document.getElementById('pkg-name').value = item.name;
+    }
+
+    async function savePackage() {
+        const id = document.getElementById('pkg-id').value.trim();
+        const name = document.getElementById('pkg-name').value.trim();
+        if (!name) return alert('Name is required');
+
+        const res = await apiRequest('POST', '/package', {name});
+        showResponse('pkg-response', res);
+        if (res.ok) {
+            loadPackages();
+            clearPkgForm();
+        }
+    }
+
+    function clearPkgForm() {
+        document.getElementById('pkg-id').value = '';
+        document.getElementById('pkg-name').value = '';
+    }
+
+    function updatePackageDropdowns(packages) {
+        const selects = [
+            document.getElementById('fp-pkg-select'),
+        ];
+        selects.forEach(sel => {
+            sel.innerHTML = '<option value="">— Select package —</option>';
+            packages.forEach(p => {
+                const opt = document.createElement('option');
+                opt.value = p.id;
+                opt.textContent = `${p.name} (id: ${p.id})`;
+                sel.appendChild(opt);
+            });
+        });
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Footprints (with package dropdown)
+    // ──────────────────────────────────────────────────────────────
+    async function loadFootprints() {
+        const r = await apiRequest('GET', '/footprint');
+        if (r.ok && Array.isArray(r.data)) {
+            renderTable('footprints-table', r.data,
+                ['id', 'name', 'library_id', 'package_id'],
+                item => { /* edit button */
+                },
+                (item, col) => {
+                    if (col === 'package_id' && item.package_id) {
+                        // We don't have package names in footprint list response
+                        // → either fetch packages separately or accept showing only ID
+                        return item.package_id; // or enhance backend to join name
+                    }
+                    return item[col] ?? '';
+                }
+            );
+        }
+    }
+
+    function editFootprint(item) {
+        document.getElementById('fp-id').value = item.id;
+        document.getElementById('fp-name').value = item.name;
+        document.getElementById('fp-lib-id').value = item.library_id;
+        document.getElementById('fp-pkg-select').value = item.package_id || '';
+    }
+
+    async function saveFootprint() {
+        const id = document.getElementById('fp-id').value.trim();
+        const name = document.getElementById('fp-name').value.trim();
+        const lib_id = document.getElementById('fp-lib-id').value.trim();
+        const package_id = document.getElementById('fp-pkg-select').value;
+
+        if (!name || !lib_id) return alert('Name and Library ID required');
+
+        const data = {
+            name,
+            library_id: parseInt(lib_id),
+            package_id: package_id ? parseInt(package_id) : null
+        };
+
+        const res = await apiRequest('POST', '/footprint', data);
+        showResponse('fp-response', res);
+        if (res.ok) {
+            loadFootprints();
+            clearFpForm();
+        }
+    }
+
+    function clearFpForm() {
+        ['fp-id', 'fp-name', 'fp-lib-id', 'fp-pkg-select'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el.tagName === 'SELECT') el.value = '';
+            else el.value = '';
+        });
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Symbols
+    // ──────────────────────────────────────────────────────────────
+    async function loadSymbols() {
+        const r = await apiRequest('GET', '/symbol');
+        if (r.ok && Array.isArray(r.data)) {
+            // Fill lookup map
+            symbolMap = {};
+            r.data.forEach(s => {
+                symbolMap[s.id] = s.name;
+            });
+
+            // Render symbols table (existing code)
+            renderTable('symbols-table', r.data, ['id', 'name', 'library_id'], item => {
+                const btn = document.createElement('button');
+                btn.textContent = 'Edit';
+                btn.onclick = () => editSymbol(item);
+                return btn;
+            });
+
+            // Also update dropdown for parts
+            updateSymbolDropdown(r.data);
+        }
+    }
+
+    function editSymbol(item) {
+        document.getElementById('sym-id').value = item.id;
+        document.getElementById('sym-name').value = item.name;
+        document.getElementById('sym-lib-id').value = item.library_id;
+    }
+
+    async function saveSymbol() {
+        const id = document.getElementById('sym-id').value.trim();
+        const name = document.getElementById('sym-name').value.trim();
+        const lib_id = document.getElementById('sym-lib-id').value.trim();
+
+        if (!name || !lib_id) return alert('Name and Library ID required');
+
+        const res = await apiRequest('POST', '/symbol', {name, library_id: parseInt(lib_id)});
+        showResponse('sym-response', res);
+        if (res.ok) {
+            loadSymbols();
+            clearSymForm();
+        }
+    }
+
+    function clearSymForm() {
+        ['sym-id', 'sym-name', 'sym-lib-id'].forEach(id => document.getElementById(id).value = '');
+    }
+
+    function updateSymbolDropdown(symbols) {
+        const sel = document.getElementById('part-sym-select');
+        sel.innerHTML = '<option value="">— Select symbol —</option>';
+        symbols.forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s.id;
+            opt.textContent = `${s.name} (id: ${s.id})`;
+            sel.appendChild(opt);
+        });
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Parts (with symbol & footprint dropdowns)
+    // ──────────────────────────────────────────────────────────────
+    async function loadParts() {
+        const r = await apiRequest('GET', '/part'); // assuming backend supports list all
+        if (r.ok && Array.isArray(r.data)) {
+            renderTable('parts-table', r.data,
+                ['partnumber', 'value', 'symbol_id', 'footprint_id', 'lcsc_num'],
+                item => {
+                    const btn = document.createElement('button');
+                    btn.textContent = 'Edit';
+                    btn.onclick = () => editPart(item);
+                    return btn;
+                },
+                // Custom cell renderer for special columns
+                (item, col) => {
+                    if (col === 'symbol_id') {
+                        const name = symbolMap[item.symbol_id] || '—';
+                        return `${name} (${item.symbol_id})`;
+                    }
+                    if (col === 'footprint_id') {
+                        const name = footprintMap[item.footprint_id] || '—';
+                        return `${name} (${item.footprint_id})`;
+                    }
+                    return item[col] ?? '';
+                }
+            );
+        }
+    }
+
+    async function loadSymbolsForDropdown() {
+        const r = await apiRequest('GET', '/symbol');
+        if (r.ok && Array.isArray(r.data)) updateSymbolDropdown(r.data);
+    }
+
+
+    async function loadFootprintsForDropdown() {
+        const r = await apiRequest('GET', '/footprint');
+        if (r.ok && Array.isArray(r.data)) {
+            // Fill lookup map
+            footprintMap = {};
+            r.data.forEach(fp => {
+                footprintMap[fp.id] = fp.name;
+            });
+
+            // Update dropdown for parts & footprints tab
+            const sel = document.getElementById('part-fp-select');
+            sel.innerHTML = '<option value="">— Select footprint —</option>';
+            r.data.forEach(fp => {
+                const opt = document.createElement('option');
+                opt.value = fp.id;
+                opt.textContent = `${fp.name} (id: ${fp.id})`;
+                sel.appendChild(opt);
+            });
+
+            // If footprints tab is active — also render its table
+            if (document.getElementById('footprints').classList.contains('active')) {
+                loadFootprints();
+            }
+        }
+    }
+
+    function editPart(item) {
+        document.getElementById('part-pn').value = item.partnumber;
+        document.getElementById('part-value').value = item.value || '';
+        document.getElementById('part-desc').value = item.description || '';
+        document.getElementById('part-datasheet').value = item.datasheet || '';
+        document.getElementById('part-lcsc').value = item.lcsc_num || '';
+        document.getElementById('part-chipdip').value = item.chipdip_num || '';
+        document.getElementById('part-ex-bom').checked = !!item.exclude_bom;
+        document.getElementById('part-ex-pcb').checked = !!item.exclude_pcb;
+        document.getElementById('part-sym-select').value = item.symbol_id || '';
+        document.getElementById('part-fp-select').value = item.footprint_id || '';
+    }
+
+    async function savePart() {
+        const pn = document.getElementById('part-pn').value.trim();
+        const sym_id = document.getElementById('part-sym-select').value;
+        const fp_id = document.getElementById('part-fp-select').value;
+
+        if (!pn || !sym_id || !fp_id) return alert('Partnumber, Symbol and Footprint are required');
+
+        const data = {
+            partnumber: pn,
+            symbol_id: parseInt(sym_id),
+            footprint_id: parseInt(fp_id),
+            value: document.getElementById('part-value').value || null,
+            description: document.getElementById('part-desc').value || null,
+            datasheet: document.getElementById('part-datasheet').value || null,
+            lcsc_num: document.getElementById('part-lcsc').value || null,
+            chipdip_num: document.getElementById('part-chipdip').value ? parseInt(document.getElementById('part-chipdip').value) : null,
+            exclude_bom: document.getElementById('part-ex-bom').checked,
+            exclude_pcb: document.getElementById('part-ex-pcb').checked
+        };
+
+        const res = await apiRequest('POST', '/part', data);
+        showResponse('part-response', res);
+        if (res.ok) {
+            loadParts();
+            clearPartForm();
+        }
+    }
+
+    function clearPartForm() {
+        ['part-pn', 'part-value', 'part-desc', 'part-datasheet', 'part-lcsc', 'part-chipdip',
+            'part-sym-select', 'part-fp-select'].forEach(id => {
+            const el = document.getElementById(id);
+            if (el.tagName === 'SELECT') el.value = '';
+            else if (el.type === 'checkbox') el.checked = false;
+            else el.value = '';
+        });
+    }
+
+    // ──────────────────────────────────────────────────────────────
+    //  Health check (original)
+    // ──────────────────────────────────────────────────────────────
+    async function checkHealth() {
+        const r = await apiRequest('GET', '/health');
+        showResponse('health-response', r);
+    }
+</script>
+</body>
+</html>
