@@ -48,6 +48,12 @@
                     "inherit_properties": true
                 },
                 {
+                    "column": "name",
+                    "name": "Manufacturer",
+                    "visible_in_chooser": true,
+                    "inherit_properties": true
+                },
+                {
                     "column": "lcsc_num",
                     "name": "LCSC #",
                     "visible_in_chooser": true,
@@ -88,6 +94,7 @@
                 "description": "description",
                 "footprint_filters": "package",
                 "keywords": "alts",
+                "name": "manufacturer",
                 "lcsc_num": "lcsc_num",
                 "chipdip_num": "chipdip_num",
                 "exclude_from_bom": "exclude_bom",
