@@ -65,6 +65,18 @@
 		(layer "F.SilkS")
 		(uuid "6d605e32-c8fb-44dc-91d3-2b1b5e6b1f66")
 	)
+	(fp_poly
+		(pts
+			(xy -9 4.5) (xy -8.25 4.5) (xy -9 3.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9983e08d-fde0-4b17-af0a-abf6140987bd")
+	)
 	(fp_rect
 		(start -8.06 -3.625)
 		(end 8.06 3.625)
@@ -73,7 +85,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "3229d9b2-4df4-454b-944b-605e33adad5c")
 	)
 	(pad "1" thru_hole circle

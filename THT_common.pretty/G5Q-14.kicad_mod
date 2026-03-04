@@ -74,7 +74,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "0d0c00b6-84ac-4e40-8fc5-0960b3ec3925")
 	)
 	(pad "1" thru_hole circle

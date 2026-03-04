@@ -69,7 +69,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "a810d87f-418b-4c5c-8386-c31c04e4f949")
 	)
 	(fp_circle
