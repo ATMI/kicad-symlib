@@ -534,19 +534,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "VD"
-			(at 0 5 0)
+			(at 0 3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -5 0)
+			(at 0 -3 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -3744,19 +3746,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "K"
-			(at 0 6 0)
+			(at 0 4 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -12 0)
+			(at 0 -10 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -3865,7 +3869,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3883,7 +3887,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3901,7 +3905,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3919,7 +3923,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4665,19 +4669,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "K"
-			(at 0 12 0)
+			(at 0 10 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 0 -12 0)
+			(at 0 -10 0)
 			(effects
 				(font
-					(size 2 2)
+					(size 1 1)
 				)
+				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
@@ -4736,7 +4742,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4754,7 +4760,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4772,7 +4778,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4790,7 +4796,7 @@
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
