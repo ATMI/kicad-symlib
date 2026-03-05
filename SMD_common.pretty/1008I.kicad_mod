@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "1210l"
+	(property "Value" "1008l"
 		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
