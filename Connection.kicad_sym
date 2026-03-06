@@ -8784,6 +8784,4292 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "Socket-260"
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "X"
+			(at -9 0 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "*Value*"
+			(at -4 -7 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "*Footprint*"
+			(at -4 -10 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "*Datasheet*"
+			(at -4 11 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "This is a template symbol not to be used in real schematics"
+			(at -4 8 0)
+			(effects
+				(font
+					(size 2 2)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Socket-260_1_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_1_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_2_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_2_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_3_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_3_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_4_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_4_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_5_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_5_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_6_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_6_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_7_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_7_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_8_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_8_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_9_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_9_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_10_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_10_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_11_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_11_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_12_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_12_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_13_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_13_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_14_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_14_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_15_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_15_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_16_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_16_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_17_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_17_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_18_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_18_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_19_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_19_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_20_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_20_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_21_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_21_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_22_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_22_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_23_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_23_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_24_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_24_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_25_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_25_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_26_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_26_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_27_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_27_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_28_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_28_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_29_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_29_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_30_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_30_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_31_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_31_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_32_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_32_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_33_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_33_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_34_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_34_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_35_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_35_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_36_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_36_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_37_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_37_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_38_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_38_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_39_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_39_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_40_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_40_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "40"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_41_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_41_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_42_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_42_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_43_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_43_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_44_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_44_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_45_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_45_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_46_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_46_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_47_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_47_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_48_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_48_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_49_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_49_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_50_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_50_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_51_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_51_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_52_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_52_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_53_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_53_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_54_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_54_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_55_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_55_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_56_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_56_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_57_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_57_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_58_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_58_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_59_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_59_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_60_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_60_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_61_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_61_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_62_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_62_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_63_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_63_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(symbol "Socket-260_64_0"
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6 0) (xy -8 -2)
+				)
+				(stroke
+					(width 0.5)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4 0) (xy -6 0)
+				)
+				(stroke
+					(width 0.25)
+					(type solid)
+					(color 0 0 0 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Socket-260_64_1"
+			(pin passive line
+				(at 0 0 180)
+				(length 4)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "IN" input line)
+				(alternate "NC" no_connect line)
+				(alternate "OUT" output line)
+				(alternate "PWR_IN" power_in line)
+				(alternate "PWR_OUT" power_out line)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "Socket-3"
 		(pin_names
 			(offset 0)
