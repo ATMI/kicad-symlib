@@ -50,8 +50,8 @@
 		)
 	)
 	(fp_rect
-		(start -5.25 -4)
-		(end 5.25 4)
+		(start -5.5 -4)
+		(end 5.5 4)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -62,7 +62,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy -5.25 4) (xy -4.5 4) (xy -5.25 3.25)
+			(xy -5.5 4) (xy -4.75 4) (xy -5.5 3.25)
 		)
 		(stroke
 			(width 0)
