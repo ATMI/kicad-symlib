@@ -23,7 +23,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+1V1"
+		(property "Value" "+1,1V"
 			(at 0 4 0)
 			(effects
 				(font
@@ -890,7 +890,7 @@
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 90)
 				(length 3)
 				(name "~"
@@ -1386,7 +1386,7 @@
 					(type none)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 0 270)
 				(length 3)
 				(name ""
