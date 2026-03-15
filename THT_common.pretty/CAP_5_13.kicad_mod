@@ -71,7 +71,6 @@
 		(uuid "3a6424ef-fe08-4b72-9889-cf6599d34bd8")
 		(effects
 			(font
-				(face "Arial")
 				(size 1.89 1.89)
 				(thickness 0.25)
 			)
