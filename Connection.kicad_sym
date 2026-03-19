@@ -6962,7 +6962,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "GA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6980,7 +6980,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "GK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6998,7 +6998,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "YA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7016,7 +7016,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "YK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7423,7 +7423,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "GA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7441,7 +7441,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "GK1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7459,7 +7459,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "YA1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7477,7 +7477,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "YK1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7833,7 +7833,7 @@
 						)
 					)
 				)
-				(number "23"
+				(number "GA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7851,7 +7851,7 @@
 						)
 					)
 				)
-				(number "24"
+				(number "GK2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7869,7 +7869,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "YA2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7887,7 +7887,7 @@
 						)
 					)
 				)
-				(number "22"
+				(number "YK2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8243,7 +8243,7 @@
 						)
 					)
 				)
-				(number "35"
+				(number "GA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8261,7 +8261,7 @@
 						)
 					)
 				)
-				(number "36"
+				(number "GK3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8279,7 +8279,7 @@
 						)
 					)
 				)
-				(number "33"
+				(number "YA3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8297,7 +8297,7 @@
 						)
 					)
 				)
-				(number "34"
+				(number "YA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8653,7 +8653,7 @@
 						)
 					)
 				)
-				(number "47"
+				(number "GA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8671,7 +8671,7 @@
 						)
 					)
 				)
-				(number "48"
+				(number "GK4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8689,7 +8689,7 @@
 						)
 					)
 				)
-				(number "45"
+				(number "YA4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8707,7 +8707,7 @@
 						)
 					)
 				)
-				(number "46"
+				(number "YK4"
 					(effects
 						(font
 							(size 1.27 1.27)
