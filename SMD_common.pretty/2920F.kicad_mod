@@ -72,7 +72,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "1f2a7340-dd9f-4a80-942d-4638a4350f14")
 	)
 	(pad "1" smd roundrect

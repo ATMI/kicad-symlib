@@ -80,7 +80,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "5d5b4ae1-2061-4e11-b484-67b403881f9e")
 	)
 	(pad "1" smd oval
