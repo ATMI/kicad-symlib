@@ -61,16 +61,85 @@
 		(layer "F.SilkS")
 		(uuid "4026d48b-aa82-4e52-a949-d12775d7e591")
 	)
-	(fp_rect
+	(fp_line
 		(start -36.5 -12.925)
+		(end -36.5 12.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ec19047d-549a-4f1c-8190-27ebd7e357d1")
+	)
+	(fp_line
+		(start -36.5 12.925)
+		(end -31.25 12.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5f4b745d-7fbd-43c4-95f8-8d103741ef23")
+	)
+	(fp_line
+		(start -31.25 -1.75)
+		(end 31.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e48fd1eb-8add-4b07-9b60-3e35468ab228")
+	)
+	(fp_line
+		(start -31.25 12.925)
+		(end -31.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "20d06972-c1ca-4ff1-8641-0a31f96226f4")
+	)
+	(fp_line
+		(start 31.25 12.925)
+		(end 31.25 -1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a1ccacc-307b-44b2-b0a2-407ccb3734a7")
+	)
+	(fp_line
+		(start 31.25 12.925)
 		(end 36.5 12.925)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill no)
 		(layer "F.CrtYd")
-		(uuid "7af859c4-96d3-4839-9588-ae45b24c717e")
+		(uuid "29129cb5-3562-4476-9df9-34bb58eef9e9")
+	)
+	(fp_line
+		(start 36.5 -12.925)
+		(end -36.5 -12.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7ac0c3b-5cab-446a-914e-a3e1ea327a72")
+	)
+	(fp_line
+		(start 36.5 12.925)
+		(end 36.5 -12.925)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "ce0d3b39-f7c0-493c-af94-1af89f12daec")
 	)
 	(fp_rect
 		(start -34.825 -7.925)
@@ -80,7 +149,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "F.CrtYd")
+		(layer "User.1")
 		(uuid "4ab812f0-a0d8-4853-91ae-41bc3baeadf8")
 	)
 	(pad "" np_thru_hole circle
@@ -92,18 +161,22 @@
 	)
 	(pad "" np_thru_hole circle
 		(at -31.8 34.075)
-		(size 2.7 2.7)
-		(drill 2.7)
+		(size 3 3)
+		(drill 3)
 		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1)
 		(solder_paste_margin 0)
+		(clearance 2)
 		(uuid "cad1f26a-6921-4cae-8f53-eb214f30475a")
 	)
 	(pad "" np_thru_hole circle
 		(at 31.8 34.075)
-		(size 2.7 2.7)
-		(drill 2.7)
+		(size 3 3)
+		(drill 3)
 		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 1)
 		(solder_paste_margin 0)
+		(clearance 2)
 		(uuid "69d7522e-6ba7-47fb-b868-2b1ba82b0fbe")
 	)
 	(pad "" np_thru_hole circle

@@ -488,7 +488,7 @@
 		(layers "F.Cu")
 		(solder_mask_margin 0.05)
 		(solder_paste_margin 0)
-		(clearance 1.5)
+		(clearance 1.2)
 		(uuid "c184fbe0-4688-4aa7-ae07-907877142ed5")
 	)
 	(pad "46" smd circle
@@ -497,7 +497,7 @@
 		(layers "F.Cu")
 		(solder_mask_margin 0.05)
 		(solder_paste_margin 0)
-		(clearance 1.5)
+		(clearance 1.2)
 		(uuid "67c651dc-8cae-49f5-8bc6-9273c7444bed")
 	)
 	(pad "47" smd circle
@@ -506,7 +506,7 @@
 		(layers "F.Cu")
 		(solder_mask_margin 0.05)
 		(solder_paste_margin 0)
-		(clearance 1.5)
+		(clearance 1.2)
 		(uuid "a0ebc1f2-8087-47f1-a174-6c118e806f0c")
 	)
 	(embedded_fonts no)
