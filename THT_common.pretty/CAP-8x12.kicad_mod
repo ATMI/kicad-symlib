@@ -53,6 +53,26 @@
 			)
 		)
 	)
+	(fp_line
+		(start -4 0)
+		(end -3 0)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4cd0b01b-2fd9-459a-8574-1370fc2893c9")
+	)
+	(fp_line
+		(start -3.5 -0.5)
+		(end -3.5 0.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a0792e2-a138-439a-8aea-02395bedc197")
+	)
 	(fp_circle
 		(center 0 0)
 		(end 4.5 0)
@@ -74,27 +94,6 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a9498313-a9d6-48f7-a112-d5d6bcd9f73e")
-	)
-	(fp_text user "+"
-		(at -3.5 0 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "3a6424ef-fe08-4b72-9889-cf6599d34bd8")
-		(effects
-			(font
-				(size 1.89 1.89)
-				(thickness 0.25)
-			)
-		)
-		(render_cache "+" 0
-			(polygon
-				(pts
-					(xy -3.405482 -0.002133) (xy -3.405482 0.550424) (xy -3.595323 0.550424) (xy -3.595323 -0.002133)
-					(xy -4.142688 -0.002133) (xy -4.142688 -0.190589) (xy -3.595323 -0.190589) (xy -3.595323 -0.743262)
-					(xy -3.405482 -0.743262) (xy -3.405482 -0.190589) (xy -2.858117 -0.190589) (xy -2.858117 -0.002133)
-				)
-			)
-		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.5 0)

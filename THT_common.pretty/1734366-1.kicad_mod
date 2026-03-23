@@ -58,7 +58,7 @@
 		(start -9 -4.25)
 		(end 9 4.25)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type default)
 		)
 		(fill no)
@@ -73,7 +73,7 @@
 			(type default)
 		)
 		(fill no)
-		(layer "Margin")
+		(layer "F.CrtYd")
 		(uuid "3229d9b2-4df4-454b-944b-605e33adad5c")
 	)
 	(pad "1" thru_hole circle
