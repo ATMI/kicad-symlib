@@ -1623,7 +1623,7 @@
 	(pad "129" smd roundrect
 		(at 0 0)
 		(size 5.8 5.8)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.08620689655)
 		(solder_mask_margin 0.045)
 		(solder_paste_margin -0.025)
