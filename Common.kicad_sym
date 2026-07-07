@@ -1,13 +1,17 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "Antenna"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "XS"
 			(at 0 14 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -17,6 +21,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -26,29 +32,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Antenna_0_1"
@@ -144,8 +156,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "GB"
 			(at 0 5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -154,6 +170,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -162,29 +180,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Battery_1_0"
@@ -277,49 +301,59 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
-			(at -2 1 0)
+			(at 0 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "*Value*"
-			(at 2 -1 0)
+			(at 0 -6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify left top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Capacitor_1_0"
@@ -399,8 +433,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
 			(at 0 5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -410,6 +448,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -419,29 +459,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Capacitor+_1_0"
@@ -533,8 +579,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -544,6 +594,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -553,29 +605,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode_1_0"
@@ -621,24 +679,6 @@
 		)
 		(symbol "Diode_1_1"
 			(pin passive line
-				(at -6 0 0)
-				(length 4)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 4)
 				(name "K"
@@ -649,6 +689,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6 0 0)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -669,8 +727,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at -3 11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -679,6 +741,8 @@
 		)
 		(property "Value" "*Value*"
 			(at -3 -11 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -687,29 +751,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at -3 -14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at -3 17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at -3 14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode 2KA_1_0"
@@ -781,24 +851,6 @@
 				)
 			)
 			(pin passive line
-				(at -12 0 0)
-				(length 6)
-				(name "KA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 6 180)
 				(length 6)
 				(name "A"
@@ -834,6 +886,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -12 0 0)
+				(length 6)
+				(name "KA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -847,8 +917,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at 0 19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -858,6 +932,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -19 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -867,29 +943,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 30 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode 2KA Vert_1_0"
@@ -961,6 +1043,24 @@
 				)
 			)
 			(pin passive line
+				(at 0 -12 90)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 0 12 270)
 				(length 4)
 				(name "K"
@@ -996,24 +1096,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -12 90)
-				(length 4)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -1027,8 +1109,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1038,6 +1124,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1047,29 +1135,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode 4_1_0"
@@ -1397,8 +1491,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at 0 18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -1407,6 +1505,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -18 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -1415,29 +1515,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode Bridge_1_0"
@@ -1561,24 +1667,6 @@
 				)
 			)
 			(pin passive line
-				(at -12 0 0)
-				(length 6)
-				(name "~~"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 12 270)
 				(length 6)
 				(name "+"
@@ -1607,6 +1695,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12 0 0)
+				(length 6)
+				(name "~~"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1645,8 +1751,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1656,6 +1766,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1665,29 +1777,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode Schottky_1_0"
@@ -1733,24 +1851,6 @@
 		)
 		(symbol "Diode Schottky_1_1"
 			(pin passive line
-				(at -6 0 0)
-				(length 4)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 4)
 				(name "K"
@@ -1761,6 +1861,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6 0 0)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1781,8 +1899,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VD"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1792,6 +1914,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1801,29 +1925,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Diode TVS_1_0"
@@ -1869,24 +1999,6 @@
 		)
 		(symbol "Diode TVS_1_1"
 			(pin passive line
-				(at -6 0 0)
-				(length 4)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 4)
 				(name "K"
@@ -1904,6 +2016,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -6 0 0)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -1911,8 +2041,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "F"
 			(at 0 2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1922,6 +2056,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -1931,29 +2067,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Fuse_1_0"
@@ -1970,24 +2112,6 @@
 				)
 			)
 			(pin passive line
-				(at -6 0 0)
-				(length 3)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 3)
 				(name "1"
@@ -1998,6 +2122,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6 0 0)
+				(length 3)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0 0)
@@ -2027,8 +2169,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "F"
 			(at 0 2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2038,6 +2184,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2047,29 +2195,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Fuse Holder_1_0"
@@ -2086,24 +2240,6 @@
 				)
 			)
 			(pin passive line
-				(at -6 0 0)
-				(length 3)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 3)
 				(name "1"
@@ -2114,6 +2250,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6 0 0)
+				(length 3)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0 0)
@@ -2150,49 +2304,59 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
 			(at 0 2 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Value" "*Value*"
 			(at 0 -1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
 				)
-				(justify top)
 			)
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Inductor_1_0"
@@ -2285,8 +2449,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "L"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2296,6 +2464,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2305,29 +2475,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Inductor Core_1_0"
@@ -2471,8 +2647,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at 0 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2482,6 +2662,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2491,29 +2673,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Led_1_0"
@@ -2649,8 +2837,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at 0 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2660,6 +2852,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2669,29 +2863,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Led G_1_0"
@@ -2779,24 +2979,6 @@
 				)
 			)
 			(pin passive line
-				(at -6 0 0)
-				(length 4)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 4)
 				(name "K"
@@ -2807,6 +2989,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6 0 0)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2827,8 +3027,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at 0 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2838,6 +3042,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -2847,29 +3053,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Led R_1_0"
@@ -2957,24 +3169,6 @@
 				)
 			)
 			(pin passive line
-				(at -6 0 0)
-				(length 4)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 4)
 				(name "K"
@@ -2992,6 +3186,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -6 0 0)
+				(length 4)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -2999,8 +3211,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VT"
 			(at 3 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -3010,6 +3226,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 3 -6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -3019,29 +3237,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 3 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 3 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 3 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MOSFET-N_1_0"
@@ -3077,24 +3301,6 @@
 				)
 			)
 			(pin passive line
-				(at 6 6 270)
-				(length 3)
-				(name "3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 -6 90)
 				(length 3)
 				(name "2"
@@ -3105,6 +3311,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 6 270)
+				(length 3)
+				(name "3"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -3202,8 +3426,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VT"
 			(at 3 13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -3212,6 +3440,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 3 -5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -3220,29 +3450,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 3 -8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 3 19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 3 16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MOSFET-P_1_0"
@@ -3278,24 +3514,6 @@
 				)
 			)
 			(pin passive line
-				(at 6 12 270)
-				(length 5)
-				(name "D"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 -6 90)
 				(length 7)
 				(name "S"
@@ -3306,6 +3524,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 12 270)
+				(length 5)
+				(name "D"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0 0)
@@ -3400,8 +3636,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -3410,6 +3650,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -3418,29 +3660,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "MP2451_1_0"
@@ -3457,17 +3705,53 @@
 					(color 255 255 194 1)
 				)
 			)
-			(pin power_in line
-				(at -18 6 0)
+			(pin input line
+				(at 18 0 180)
 				(length 6)
-				(name "Vin"
+				(name "BST"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -18 90)
+				(length 6)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 18 -6 180)
+				(length 6)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3494,16 +3778,16 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -18 90)
+				(at -18 6 0)
 				(length 6)
-				(name "GND"
+				(name "Vin"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -3529,42 +3813,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at 18 0 180)
-				(length 6)
-				(name "BST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 18 -6 180)
-				(length 6)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -3578,8 +3826,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VT"
 			(at 3 7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -3589,6 +3841,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 3 -7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -3598,29 +3852,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 3 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 3 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 3 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NPN_1_0"
@@ -3697,24 +3957,6 @@
 				)
 			)
 			(pin passive line
-				(at 6 6 270)
-				(length 3)
-				(name "C"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 -6 90)
 				(length 3)
 				(name "E"
@@ -3725,6 +3967,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6 6 270)
+				(length 3)
+				(name "C"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1 1)
@@ -3745,8 +4005,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "K"
 			(at 0 4 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -3756,6 +4020,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -10 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -3765,29 +4031,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Optorelay/NO_1_0"
@@ -3896,24 +4168,6 @@
 				)
 			)
 			(pin passive line
-				(at 12 0 180)
-				(length 6)
-				(name "COM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 12 -6 180)
 				(length 6)
 				(name "NO"
@@ -3924,6 +4178,24 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 0 180)
+				(length 6)
+				(name "COM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4011,8 +4283,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VT"
 			(at 3 9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4021,6 +4297,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 3 -9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4029,29 +4307,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 3 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 3 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 3 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PNP_1_0"
@@ -4175,8 +4459,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "ZQ"
 			(at 0 7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4185,6 +4473,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -9 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4193,29 +4483,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Quartz_1_0"
@@ -4308,8 +4604,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "ZQ"
 			(at 0 5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -4319,6 +4619,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -4328,29 +4630,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Quartz Shielded_1_0"
@@ -4412,24 +4720,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -6 90)
-				(length 2)
-				(name "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1 1)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6 0 180)
 				(length 4)
 				(name "2"
@@ -4447,6 +4737,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -6 90)
+				(length 2)
+				(name "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -4454,8 +4762,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4464,6 +4776,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4472,29 +4786,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 40 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RS-485/RS-422 Transceiver_1_0"
@@ -4509,78 +4829,6 @@
 				(fill
 					(type color)
 					(color 255 255 194 1)
-				)
-			)
-			(pin input line
-				(at -18 6 0)
-				(length 6)
-				(name "A"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -18 -6 0)
-				(length 6)
-				(name "B"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 24 270)
-				(length 6)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -24 90)
-				(length 6)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
 				)
 			)
 			(pin output line
@@ -4655,87 +4903,10 @@
 					)
 				)
 			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Relay"
-		(pin_numbers
-			(hide yes)
-		)
-		(pin_names
-			(offset 0)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "K"
-			(at 0 10 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "*Value*"
-			(at 0 -10 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify top)
-			)
-		)
-		(property "Footprint" "*Footprint*"
-			(at 0 -15 0)
-			(effects
-				(font
-					(size 2 2)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "*Datasheet*"
-			(at 0 18 0)
-			(effects
-				(font
-					(size 2 2)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
-			(at 0 15 0)
-			(effects
-				(font
-					(size 2 2)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "Relay_1_0"
-			(pin passive line
-				(at -12 6 0)
+			(pin power_in line
+				(at 0 -24 90)
 				(length 6)
-				(name "Coil"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12 -6 0)
-				(length 6)
-				(name "Coil"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4750,17 +4921,142 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 12 6 180)
+			(pin input line
+				(at -18 6 0)
 				(length 6)
-				(name "NC"
+				(name "A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -18 -6 0)
+				(length 6)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 24 270)
+				(length 6)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Relay"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "K"
+			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "*Value*"
+			(at 0 -10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify top)
+			)
+		)
+		(property "Footprint" "*Footprint*"
+			(at 0 -15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Datasheet" "*Datasheet*"
+			(at 0 18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
+			(at 0 15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 2 2)
+				)
+			)
+		)
+		(symbol "Relay_1_0"
+			(pin passive line
+				(at -12 6 0)
+				(length 6)
+				(name "Coil"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4797,6 +5093,42 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12 6 180)
+				(length 6)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12 -6 0)
+				(length 6)
+				(name "Coil"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4885,8 +5217,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "K"
 			(at 0 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4895,6 +5231,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -4903,29 +5241,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Relay/NC_1_0"
@@ -5068,8 +5412,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "K"
 			(at 0 6 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -5078,6 +5426,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -12 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 2 2)
@@ -5086,29 +5436,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Relay/NO_1_0"
@@ -5245,9 +5601,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 0 2 0)
-			(do_not_autoplace)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5257,7 +5616,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 0 0)
-			(do_not_autoplace)
+			(show_name no)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1 1)
@@ -5266,29 +5626,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 10 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Resistor_1_0"
@@ -5302,24 +5668,6 @@
 				)
 				(fill
 					(type background)
-				)
-			)
-			(pin passive line
-				(at -6 0 0)
-				(length 3)
-				(name "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -5340,6 +5688,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -6 0 0)
+				(length 3)
+				(name "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -5347,8 +5713,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "S"
 			(at 0 3 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -5358,6 +5728,8 @@
 		)
 		(property "Value" "*Value*"
 			(at 0 -1 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
@@ -5367,29 +5739,35 @@
 		)
 		(property "Footprint" "*Footprint*"
 			(at 0 -6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "*Datasheet*"
 			(at 0 11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "This is a template symbol not to be used in real schematics, think of hiding this library in settings"
 			(at 0 8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 2 2)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "Switch_1_0"
